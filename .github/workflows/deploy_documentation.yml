@@ -24,5 +24,4 @@ jobs:
 
       - name: Build and deploy
         run: |
-          git pull
           mkdocs gh-deploy
